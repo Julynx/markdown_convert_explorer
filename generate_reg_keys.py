@@ -28,20 +28,20 @@ def main():
 def fill_template(exe_path):
     return f"""Windows Registry Editor Version 5.00
 
-[HKEY_CLASSES_ROOT\\*]
+[HKEY_CLASSES_ROOT\\.md]
 
-[HKEY_CLASSES_ROOT\\*\\shell]
+[HKEY_CLASSES_ROOT\\.md\\shell]
 
-[HKEY_CLASSES_ROOT\\*\\shell\\MarkdownConvert]
+[HKEY_CLASSES_ROOT\\.md\\shell\\MarkdownConvert]
 @="Convert to PDF"
 
-[HKEY_CLASSES_ROOT\\*\\shell\\MarkdownConvert\\command]
+[HKEY_CLASSES_ROOT\\.md\\shell\\MarkdownConvert\\command]
 @="\\"{exe_path}\\" \\"%1\\""
 
-[HKEY_CLASSES_ROOT\\*\\shell\\MarkdownConvertLive]
+[HKEY_CLASSES_ROOT\\.md\\shell\\MarkdownConvertLive]
 @="Convert to PDF (live)"
 
-[HKEY_CLASSES_ROOT\\*\\shell\\MarkdownConvertLive\\command]
+[HKEY_CLASSES_ROOT\\.md\\shell\\MarkdownConvertLive\\command]
 @="\\"{exe_path}\\" \\"%1\\" \\"--mode=live\\""
 """
 
