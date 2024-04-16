@@ -5,7 +5,7 @@ _Add Markdown to PDF conversion to the right click menu of Windows File Explorer
 ## Requirements
 
 - The [markdown-convert](https://github.com/Julynx/markdown_convert) Python package: `pip install markdown-convert`.
-- The GTK-3 Runtime for Windows: [GTK-3 Runtime](https://github.com/tschoonj/GTK-for-Windows-Runtime-Environment-Installer/releases).
+- The GTK-3 Runtime for Windows: [GTK-3 Runtime](https://github.com/tschoonj/GTK-for-Windows-Runtime-Environment-Installer/releases) (Required by `weasyprint`, a dependency of `markdown-convert`).
 
 ## Installation
 
