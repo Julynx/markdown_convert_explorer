@@ -17,5 +17,5 @@ _Add Markdown to PDF conversion to the right click menu of Windows File Explorer
 
 ## Usage
 
-- Right click on any Markdown file, then click `Convert to PDF`.
+- Right click any Markdown file, then click `Convert to PDF`.
 - For real-time conversion to PDF, click `Convert to PDF (live)`.
