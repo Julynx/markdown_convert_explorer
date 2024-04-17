@@ -9,7 +9,7 @@ _Add Markdown to PDF conversion to the right click menu of Windows File Explorer
 
 ## Installation
 
-1. Download and run `generate_reg_keys.py`.
+1. Download and run `generate_reg_keys.py` from this repository.
    
     This will create a file called `markdown-convert.reg` that contains the registry keys to add the right click menu entries for your system.
 
