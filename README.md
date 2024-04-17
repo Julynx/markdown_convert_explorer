@@ -17,6 +17,8 @@ _Add Markdown to PDF conversion to the right click menu of Windows File Explorer
 
 ## Usage
 
+> Note: If you just installed the `markdown-convert` package, you may need to log out and log back in for the command to be registered to your PATH.
+
 - Right click any Markdown file, then click `Convert to PDF`.
 - For real-time conversion to PDF, click `Convert to PDF (live)`.
 
