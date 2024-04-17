@@ -22,11 +22,15 @@ _Add Markdown to PDF conversion to the right click menu of Windows File Explorer
 - Right click any Markdown file, then click `Convert to PDF`.
 - For real-time conversion to PDF, click `Convert to PDF (live)`.
 
+If you don't see the new menu entries when right clicking on a file, please ensure it has the `.md` extension.
+Because Windows **hides file extensions** by default, it might actually be a `.md.txt` file. 
+Check out [this link](https://lazyadmin.nl/win-11/show-file-extension-windows-11/) if you wish to disable this behavior.
+
 ## Uninstalling
 
 To remove the entries from the right click menu, download `uninstall.reg` from this repository and double click it.
 
-Run the following command if you also wish to uninstall `markdown-convert`:
+If you also wish to uninstall `markdown-convert`, run the following command:
 
 ```bash
 pip uninstall markdown-convert -y
