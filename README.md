@@ -29,7 +29,7 @@ Check out [this link](https://lazyadmin.nl/win-11/show-file-extension-windows-11
 
 ## Uninstalling
 
-To remove the entries from the right click menu, download [<kbd> ↓ uninstall.reg </kbd>](https://github.com/Julynx/markdown_convert_explorer/releases/download/1.0/uninstall.reg) from this repository and double click it.
+To remove the entries from the right click menu, download [<kbd> ↓ uninstall.reg </kbd>](https://github.com/Julynx/markdown_convert_explorer/releases/download/1.0/uninstall.reg) and double click it.
 
 If you also wish to uninstall `markdown-convert`, run the following command:
 
