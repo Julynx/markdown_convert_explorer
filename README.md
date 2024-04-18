@@ -9,7 +9,7 @@ _Add Markdown to PDF conversion to the right click menu of Windows File Explorer
 
 ## Installation
 
-1. Download and run `generate_reg_keys.py` from this repository.
+1. Download [ <kbd> ↓ generate_reg_keys.py </kbd> ](https://github.com/Julynx/markdown_convert_explorer/releases/download/1.0/generate_reg_keys.py) and run it:
    
     This will create a file called `markdown-convert.reg` that contains the registry keys to add the right click menu entries for your system.
 
@@ -17,7 +17,8 @@ _Add Markdown to PDF conversion to the right click menu of Windows File Explorer
 
 ## Usage
 
-> Note: If you just installed the `markdown-convert` package, you may need to log out and log back in for the command to be registered to your PATH.
+> [!NOTE]
+> If you just installed the `markdown-convert` package, you may need to log out and log back in for the command to be registered to your PATH.
 
 - Right click any Markdown file, then click `Convert to PDF`.
 - For real-time conversion to PDF, click `Convert to PDF (live)`.
@@ -28,7 +29,7 @@ Check out [this link](https://lazyadmin.nl/win-11/show-file-extension-windows-11
 
 ## Uninstalling
 
-To remove the entries from the right click menu, download `uninstall.reg` from this repository and double click it.
+To remove the entries from the right click menu, download [ <kbd> ↓ uninstall.reg </kbd> ](https://github.com/Julynx/markdown_convert_explorer/releases/download/1.0/uninstall.reg) from this repository and double click it.
 
 If you also wish to uninstall `markdown-convert`, run the following command:
 
